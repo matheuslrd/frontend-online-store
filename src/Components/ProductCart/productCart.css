@@ -1,0 +1,59 @@
+.product-cart-body {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1em;
+  width: 50%;
+}
+
+.button-remove-product {
+  background: transparent;
+  border: none;
+  color: rgb(197, 0, 0);
+  cursor: pointer;
+  font-size: 2em;
+  transition: 0.1s all ease-out;
+}
+
+.button-remove-product:hover {
+  color: red;
+}
+
+.product-name {
+  width: 40%;
+}
+
+.add-product-body {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1.3em;
+  justify-content: space-around;
+  width: 15%;
+}
+
+.btn-product {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8em;
+  width: 30%;
+}
+
+.btn-decrease {
+  color: rgb(197, 0, 0);
+}
+
+.btn-decrease:hover {
+  color: red;
+}
+
+.btn-add {
+  color: rgb(0, 163, 0);
+}
+
+.btn-add:hover {
+  color: rgb(0, 207, 0);
+}
