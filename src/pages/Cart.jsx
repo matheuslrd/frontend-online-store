@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+
 import ProductCart from '../Components/ProductCart/ProductCart';
+
+import './cart.css';
+
+// git add src/ && git commit -m ""
 
 class Cart extends Component {
   constructor(props) {
@@ -60,6 +66,7 @@ class Cart extends Component {
     const emptyCartMessage = (
       <p data-testid="shopping-cart-empty-message">Seu carrinho está vazio</p>
     );
+
     const { totalPrice, shoppingCart } = this.state;
     const priceConverted = (
       new Intl.NumberFormat('pr-BR', {
@@ -67,11 +74,12 @@ class Cart extends Component {
         currency: 'BRL',
       }).format(totalPrice)
     );
+
     return (
       <main className="shopping-cart-page">
         <header className="header-cart">
           <Link to="/">
-            Voltar
+            <AiOutlineArrowLeft />
           </Link>
           <h1>Carrinho de Compras</h1>
         </header>
