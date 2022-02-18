@@ -1,6 +1,3 @@
-
-<img src="preview.gif" alt="preview da aplicação">
-
 # [Front-End Online Store](https://frontend-online-store-sigma.vercel.app/)
 
 Projeto feito em grupo durante o curso da [Trybe](https://www.betrybe.com/) com o objetivo de treinar as metodologias ágeis com DM's e Kanbam, além de utilizarmos React e Redux para a construção e gerenciamento de estado.
