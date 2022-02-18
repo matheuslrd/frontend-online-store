@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import ProductCart from '../Components/ProductCart/ProductCart';
 
+import './cart.css';
+
 class Cart extends Component {
   constructor(props) {
     super(props);
@@ -61,6 +63,7 @@ class Cart extends Component {
     const emptyCartMessage = (
       <p data-testid="shopping-cart-empty-message">Seu carrinho está vazio</p>
     );
+
     const { totalPrice, shoppingCart } = this.state;
     const priceConverted = (
       new Intl.NumberFormat('pr-BR', {
@@ -68,6 +71,7 @@ class Cart extends Component {
         currency: 'BRL',
       }).format(totalPrice)
     );
+
     return (
       <main className="shopping-cart-page">
         <header className="header-cart">
