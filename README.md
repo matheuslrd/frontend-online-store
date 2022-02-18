@@ -1,6 +1,6 @@
 # [Front-End Online Store](https://frontend-online-store-sigma.vercel.app/)
 
-Projeto feito em grupo durante o curso da [Trybe](https://www.betrybe.com/) com o objetivo de treinar as metodologias ágeis com DM's e Kanbam, além de utilizarmos React e Redux para a construção e gerenciamento de estado.
+Projeto feito em grupo durante o curso da [Trybe](https://www.betrybe.com/) com o objetivo de treinar as metodologias ágeis com DM's e Kanbam, além de utilizarmos React.
 
 ## 🔧 Funçoes
 
@@ -15,7 +15,6 @@ Projeto feito em grupo durante o curso da [Trybe](https://www.betrybe.com/) com 
 
 - Utilizar o Trello para organização em grupo.
 - Utilizar o consumo de API.
-- Utilizar Redux para gerenciamento de estado global.
 - Utilizar o framework Tailwind CSS para realizar estilizações.
 
 ## 💻 Como iniciar
@@ -34,7 +33,6 @@ npm start
 [![TRELLO](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/)
 [![IDE](https://img.shields.io/badge/Visual_studio_code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
 [![REACT](https://img.shields.io/badge/ReactJs-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://developer.mozilla.org/pt-BR/docs/Web/React)
-[![REDUX](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
