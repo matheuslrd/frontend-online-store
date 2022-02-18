@@ -42,6 +42,11 @@ npm start
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+## :bust_in_silhouette: O que foi desenvolvido por mim:
+
+- Pesquisa por termo útilizando chamada a API na página <b>Home.</b>
+- Página de <b>carrinho de compras</b>.
+
 ## 🤝 Desenvolvedores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
